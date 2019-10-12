@@ -6,17 +6,17 @@ This program is an implementation of the CYK algorithm to obtain if a string bel
 
 To run, you only need to run the cyk python file. The program will prompt for the word and the Context Free Grammar in the console:
 
-![Success](./readme/python.png)
+![Success](./readme/python.PNG)
 
 ## Run with docker
 
 1. First, you need to have docker installed in your machine
 2. You need to create the docker image, to do this run the command: `docker build -t python-cyk .` you can change the `python-cyk` to whatever you prefer as a name for your image.
-![build image](./readme/docker1.png)
+![build image](./readme/docker1.PNG)
 
 3. Then you need to create the container and run it: `docker run -i -t --rm python-cyk`, remember that if you changed the name of the image to change the name also in this command.
 4. The docker will start running, and the program will prompt for the word and the Context Free Grammar
-![run docker](./readme/docker2.png)
+![run docker](./readme/docker2.PNG)
 
 ## Input
 
@@ -32,8 +32,8 @@ Example:
 
 If the word belongs to the Grammar, then the program will prompt it and print the parse tree.
 
-![Success](./readme/out1.png)
+![Success](./readme/out1.PNG)
 
 If not, then the program will prompt that it doesn't belong only.
 
-![Fail](./readme/out2.png)
+![Fail](./readme/out2.PNG)
